@@ -54,9 +54,13 @@ var Person = function (firstAndLast) {
 
 var bob = new Person('Bob Ross');
 console.log(bob.getFullName());
-getFirstName()
-getLastName()
-getFullName()
-setFirstName(first)
-setLastName(last)
-setFullName(firstAndLast)
+console.log(bob.getFirstName());
+console.log(bob.getLastName());
+console.log(bob.getFullName());
+(bob.setFirstName('Haskell'));
+(bob.setLastName('Curry'));
+(bob.setFullName('Haskell Curry'));
+console.log(bob.getFullName());
+console.log(bob.getFirstName());
+console.log(bob.getLastName());
+console.log(bob.getFullName());
